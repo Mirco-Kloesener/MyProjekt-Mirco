@@ -78,7 +78,7 @@ function startGame() {
     ctx = canvas.getContext('2d'); //  damit auf canvas dargestellt werden kann
     loadImages();
     setInterval (update,1000 / 25); 
-    setInterval (createUfos, 1100)
+    setInterval (createUfos, 500)
     setInterval (checkForCrash, 1000 / 25)
     setInterval (checkShoot, 1000 /15)
     draw();
